@@ -1,13 +1,6 @@
 import requests
 import json
 
-url = 'https://pro-api.coinmarketcap.com/v1/cryptocurrency/listings/latest'
-headers = {
-    'Accepts': 'application/json',
-    'X-CMC_PRO_API_KEY': 'MY_API_KEY'
-}
-response = requests.get(url, headers=headers)
-
 import tkinter as tk
 
 root = tk.Tk()
